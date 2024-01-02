@@ -1,0 +1,147 @@
+body{
+	font-family:Verdana, 'sans-serif';
+	/* background-image:url('../images/_template.png');
+	background-repeat:no-repeat;
+	background-position:center top; */
+}
+.wrapper{
+	width:950px;
+	margin:auto;
+}
+header{
+	display:flex;
+}
+
+.header-left{
+	width:50%;
+}
+.header-left .header-title{
+	background-color:#003D74;
+	color:#FFFFFF;
+	padding-top:50px;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+.header-left .header-name{
+	padding-left:20px;
+	
+}
+.header-left .header-name h1{
+	font-size:33px;
+	padding-top:30px;
+	font-weight:bold;
+	padding-bottom:20px;
+	color:#003f75;
+}
+.header-left .header-name h2{
+	font-style:italic;
+	font-size:20px;
+	padding-bottom:30px;
+	color:#003f75;
+	
+}
+
+.header-right{
+	width:50%;
+	padding-top:95px;
+	font-size:14px;
+	padding-right:20px;
+	line-height:24px;
+	padding-left:40px;
+}
+.main-content{
+	display:flex;
+	padding-left:20px;
+	padding-top:5px;
+}
+.main-content aside{
+	width:33%;
+	padding-right:30px;
+	box-sizing:border-box;
+}
+.main-content article{
+	width:67%;
+}
+.resume-section{
+	margin-bottom:18px;
+	line-height:1.5;
+
+}
+.resume-section .section-title{
+	color:#003f75;
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom:2px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:15px;
+	
+}
+.resume-section .section-sub-title {
+	font-weight:bold;
+	font-size:14px;
+	
+}
+.resume-section .lead{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.resume-section p{
+	font-size:14px;
+	margin-bottom:10px;
+}
+.resume-section p.sublead{
+	margin-bottom:0px;
+	padding-bottom:10px;
+}
+.resume-section ul li{
+	font-size:14px;
+	margin-bottom:16px;
+}
+.resume-section ul.list-style-1{
+	list-style:inside;
+}
+.resume-section ul.list-style-1 li{
+	margin-bottom:8px;
+	list-style-position:outside;
+	margin-left:20px;
+}
+.rating-wrapper{
+	display:flex;
+	justify-content:space-between;
+}
+.rating-wrapper .rating-info .rating-container{
+	display:flex;
+}
+.rating-wrapper .rating-info .rating-container .rating{
+	background:#003f75;
+	height:15px;
+	width:15px;
+	margin-right:5px;
+}
+.rating-wrapper .rating-info .rating-container .rating.no{
+	background:#ccc;
+}
+
+.rating-wrapper .rating-info .rating-description{
+	text-align:right;
+	padding-top:10px;
+	font-size:14px;
+}
+.timeline-container{
+	display:flex;
+	margin-bottom:20px;
+}
+.timeline-container .time{
+	width:20%;
+}
+.timeline-container .activity{
+	width:80%;
+}
+.footer-bg{
+	margin-left:50%;
+	background-color:#003D74;
+	height:100px;
+}
+.ms-20{
+	margin-left:20%;
+}
